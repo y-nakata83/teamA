@@ -105,3 +105,88 @@ header .header_nav .navbar ul li a span {
   margin-top: 5%;
   font-size: 1.25rem;
 }
+
+.first_view {
+  width: 100%;
+  height: 70vh;
+}
+
+.first_view .background_img {
+  background-image: url(../img/first_view.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.first_view .background_img h1 {
+  font-size: 80px;
+  color: #BC8A42;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #28354D;
+  padding: 0.25em 0.5em;
+  position: relative;
+  top: 8rem;
+  opacity: 0.9;
+}
+
+.first_view .background_img h1 span {
+  font-size: 140px;
+}
+
+.first_view .background_img p {
+  position: relative;
+  top: 8rem;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #28354D;
+  padding: 0.25rem;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.service {
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.service .sec_title {
+  font-size: 2.5rem;
+}
+
+.service_detail {
+  font-size: 20px;
+  width: 40%;
+  margin: 1rem 3rem;
+}
+
+.service_detail span {
+  color: #BC8A42;
+}
+
+.service_img1 {
+  width: 15rem;
+  position: relative;
+  left: 55rem;
+  bottom: 0rem;
+}
+
+.service_img2 {
+  width: 20rem;
+  position: relative;
+  left: 25rem;
+  bottom: 20rem;
+}
