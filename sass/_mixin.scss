@@ -14,3 +14,13 @@
 @mixin li_basic {
   list-style: none;
 }
+
+@mixin btn {
+  text-align: center;
+  width: 10em;
+  padding: 1rem;
+  border: solid 1px $cNaby;
+  font-weight: bold;
+  color: $cOrange;
+  font-size: 18px;
+}
