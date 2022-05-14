@@ -1,0 +1,87 @@
+body {
+  @include body_basic;
+}
+
+a {
+  @include a_basic;
+}
+
+li {
+  @include li_basic;
+}
+header {
+  .company_info {
+    border-bottom: solid 3px $cfont_color;
+    display: flex;
+    float: right;
+    width: 100%;
+    .company {
+      margin-left:2em;
+      margin-right: 2em;
+      padding:2em  1em;
+      display: flex;
+      width: 60%;
+      border-right: 8px double $cNaby;
+      font-weight: 500;
+      .logo {
+        img {
+          width: 100%;
+        }
+      }
+      .company_name {
+        margin:1.5em;
+        font-size: 1.5rem;
+        span {
+          display: block;
+          margin-top: 5%;
+          font-size: 1rem;
+        }
+      }
+    }
+    .info_detail {
+      width: 50%;
+      background-color: $cNaby;
+      color: $cWhite;
+      padding: 3.5em 2em;
+      padding-left: 6em;
+      font-size: 17px;
+    }
+    .phone {
+      width: 50%;
+      background-color: $cNaby;
+      color: $cWhite;
+      padding: 3.5em;
+      font-size: 20px;
+    }
+  }
+  .header_nav {
+    display: block;
+    .navbar {
+      margin: 0px auto;
+      ul {
+        display: flex;
+        width: 100%;
+        z-index: 100;
+        margin: 0 auto;
+        justify-content: center;
+        border-bottom: 2px solid $cNaby;
+        li {
+          margin: 15px;
+          padding: 0 1rem;
+          text-align: center;
+
+          a {
+            color: $cfont_color;
+
+            font-size: 0.75rem;
+            span {
+              display: block;
+              margin-top: 5%;
+              font-size: 1.25rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
